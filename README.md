@@ -49,7 +49,7 @@ Datasets are not included. Pretraining used a grayscale-converted subset of [Dar
 
 ## Limitations
 
-Small, imbalanced dataset; no colour information; glare from bright light sources; mostly frontal viewpoints; soft window edges. Natural next steps are more annotations, fusing luminance with RGB, and boundary-aware post-processing.
+Small, imbalanced dataset; no colour information; glare from bright light sources; mostly frontal viewpoints; soft window edges.
 
 ![5-class model, poor segmentation: input, ground truth, prediction](docs/5_class_bad_example.png)
 ## License
