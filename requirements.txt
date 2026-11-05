@@ -1,0 +1,11 @@
+  torch
+  torchvision
+  albumentations
+  segmentation-models-pytorch
+  opencv-python
+  pillow
+  numpy
+  tqdm
+  scikit-learn
+  seaborn
+  matplotlib
