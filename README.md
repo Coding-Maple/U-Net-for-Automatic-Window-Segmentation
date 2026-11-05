@@ -2,7 +2,8 @@
 
 Pixel-level segmentation of night-time street scenes captured with a calibrated luminance camera. A U-Net, built and trained from scratch in PyTorch, finds lit windows (and other urban objects) in single-channel HDR images, so that light from private windows can be measured separately from street lighting.
 
-<!-- TODO: add docs/example_prediction.png (input | ground truth | prediction) -->
+![Window-only model: input, ground truth, prediction](docs/window_only_example.png)
+![5-class model: input, ground truth, prediction](docs/5_class_example.png)
 
 **What's in here**
 
@@ -50,6 +51,7 @@ Datasets are not included. Pretraining used a grayscale-converted subset of [Dar
 
 Small, imbalanced dataset; no colour information; glare from bright light sources; mostly frontal viewpoints; soft window edges. Natural next steps are more annotations, fusing luminance with RGB, and boundary-aware post-processing.
 
+![5-class model, poor segmentation: input, ground truth, prediction](docs/5_class_bad_example.png)
 ## License
 
 [MIT](LICENSE)
