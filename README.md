@@ -33,7 +33,7 @@ pip install torch torchvision albumentations segmentation-models-pytorch \
             opencv-python pillow numpy tqdm scikit-learn seaborn matplotlib
 ```
 
-Set data paths in `src/config.py`, then run from inside `multiclass/` or `window_only/`:
+Set data paths in the config.py inside each model folder, then run from that folder (src_5_class_model/ or src_window_only/):
 
 | | 5-class | Window-only |
 |---|---|---|
